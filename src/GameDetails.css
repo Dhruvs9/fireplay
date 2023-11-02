@@ -1,0 +1,89 @@
+/* GameDetails.css */
+.game-details {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 50px;
+}
+
+/* GameDetails.css */
+.product-card {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: flex-start;
+  /* height: 100vh; */
+  width: 100%; /* Set the width to 100% to make it fill the entire screen */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+  /* padding: 20px;
+  padding-left: 50px; */
+  background-color: #fff;
+}
+
+
+.product-image {
+  width: 50vw;
+  max-width: 50vw; /* Adjust the image width as needed */
+  height: auto;
+  margin-right: 20px; /* Add some spacing to the right */
+  border-right: 1px solid #000;
+}
+
+.product-details {
+  /* flex: 1; Allow the details to expand and fill the available space */
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Add some space between title and description */
+}
+
+.product-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.product-button {
+  background-color: #FF9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.product-button:hover {
+  background-color: #FF8000;
+}
+
+
+/* GameDetails.css 
+.game-details {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-details img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .game-details h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .game-details p {
+    font-size: 16px;
+    color: #555;
+  }*/
+  

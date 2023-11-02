@@ -1,0 +1,31 @@
+.home {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: -150px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    overflow: hidden;
+}
+
+.home_image {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient( to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    
+}
+
+.home_row { 
+    display: flex;
+    /* margin-left: 5px;
+    margin-right: 5px; */
+    z-index: 1;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.home_container{
+ width: 100vw;
+}
