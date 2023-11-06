@@ -6,6 +6,7 @@ import 'firebase/firestore';
 import './GameDetails.css';
 import { useLocation } from 'react-router-dom';
 
+
 function GameDetails() {
   const [project, setProject] = useState(null); // Use a single project, not an array
   const location = useLocation();

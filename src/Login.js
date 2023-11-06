@@ -49,7 +49,7 @@ const register = e => {
                 </form>
                 <p>By continuing, you agree to Play Fires's Conditions of Use and Privacy Notice.</p>
 
-                <button onClick={register} className='login_RegisterButton'>Create your Amazon Account</button>
+                <button onClick={register} className='login_RegisterButton'>Create your Play Fire Account</button>
             </div>
         </div>
     )
